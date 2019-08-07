@@ -2,9 +2,9 @@
 REST API used to view information about courses and their reviews and users. Uses Express along with MongoDB for the database and Mongoose for object models.
 
 Before using, ensure you have MongoDB installed, and run the following commands:
-mongoimport --db course-api --collection courses --type=json --jsonArray --file courses.json
-mongoimport --db course-api --collection users --type=json --jsonArray --file users.json
-mongoimport --db course-api --collection reviews --type=json --jsonArray --file reviews.json
+1. mongoimport --db course-api --collection courses --type=json --jsonArray --file courses.json
+2. mongoimport --db course-api --collection users --type=json --jsonArray --file users.json
+3. mongoimport --db course-api --collection reviews --type=json --jsonArray --file reviews.json
 
 To start the API:
 
